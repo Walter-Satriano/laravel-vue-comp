@@ -31,7 +31,7 @@ footer h3 {
 }
 
 .box-cont .box {
-  width: 240px;
+  width: 260px;
   background-color: #fbb7b7;
   border: 2px solid red;
   text-align: center;
@@ -39,7 +39,22 @@ footer h3 {
   padding: 10px;
 }
 
-.box-cont .box h2 {
+.box-cont .box h3 {
   text-transform: capitalize;
+}
+
+.box-cont .box p {
+  margin: 15px 0;
+}
+
+.box-cont .box a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 2px solid orange;
+  background-color: lightyellow;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
