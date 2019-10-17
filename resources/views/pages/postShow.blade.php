@@ -2,10 +2,10 @@
 
 @section('content')
 
-  @include('components.postComp')
+  @include('components.postCompShow')
 
   <div id="app">
-    <post-index-dom-elem></post-index-dom-elem>
+    <post-show-dom-elem></post-show-dom-elem>
   </div>
 
 @endsection

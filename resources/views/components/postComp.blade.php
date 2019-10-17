@@ -2,15 +2,17 @@
   <div class="box-cont">
     @foreach ($posts as $post)
       <div class="box">
-        <h2>{{ $post -> title}}</h2>
-        <h4>{{ $post -> author}}</h4>
+        <h3>TITLE: {{ $post -> title}}</h3>
+        <p>
+          <a href="{{ route('post.show', $post -> id) }}">SHOW POST</a>
+        </p>
       </div>
     @endforeach
   </div>
 </script>
 
 <script type="text/javascript">
-  Vue.component('post-dom-elem', {
+  Vue.component('post-index-dom-elem', {
 
     template: '#index-post-id',
 
