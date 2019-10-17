@@ -4,5 +4,47 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Nunito;
+}
+
+header, footer {
+  background-color: orange;
+  color: black;
+  text-align: center;
+
+  h1 {
+    padding: 20px 0;
+  }
+
+  h3 {
+    padding: 15px 0;
+  }
+}
+
+.box-cont {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .box {
+    width: 240px;
+    background-color: rgb(251, 183, 183);
+    border: 2px solid red;
+    text-align: center;
+    margin: 15px 25px;
+    padding: 10px;
+
+    h2 {
+      text-transform: capitalize;
+    }
+  }
+
+}
