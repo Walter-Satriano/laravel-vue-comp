@@ -35,6 +35,4 @@ $(document).ready(function() {
     el: '#app',
   });
 
-  console.log( "ciao" );
-
 });
